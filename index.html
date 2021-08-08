@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Accessories home page\ MarketPlace </title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="responsive.css" media="all" />
+    
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+     
+</head>
+<body>
+
+    <!-- logo and menu bar-->
+
+
+<div class="header">
+ <div class="container">
+    <div class="navbar">
+
+        <div class="logo">
+
+             <img src="logo1.jpg" alt="logo Picture" width="150px">
+             
+        </div>
+        
+        
+        <nav>
+            <ul id="menuitems">
+               
+                <li><a href="/">Home</a></li>
+                <li><a href="addProduct.html">+ New Product</a></li>
+                <!--  <img src="images/menu.jpg" class="menu-icon" > -->
+               <!-- <i class="fa fa-bars fa-1x" class="menu-icon"></i> -->
+               
+               
+            </ul>
+        </nav>
+
+        <div class="cart">
+            <a href="cart.html"  class="add-cart">
+            <i class="fa fa-shopping-cart fa-2x"></i><span id="num"></span>
+            </a>
+             </div>
+        <i class="fa fa-bars fa-2x" id="menu-icon" onclick="menutoggle()"></i> 
+        
+ </div>
+                    <!-- picture and title -->
+
+    <div class="row">
+        <div class="col-2">
+            <h1 id="girls">
+                Girls can,t live<br> without shopping </h1>
+        </div>
+        <div class="col-2">
+            <img src="/images/girl4.jpg">
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- feature catagories -->
+
+<div class="categories">
+
+    <div class="small-container">
+
+    <div class="row">
+
+        <div class="col-3">
+            <img src="images/catagori 3.jpg">
+        </div>
+
+        <div class="col-3">
+            <img src="images/catagori2.jpg">
+        </div>
+
+        <div class="col-3">
+            <img src="images/catagori 4.jpg"> 
+        </div>
+
+    </div>
+  </div>
+</div>
+
+    <!-- feature products-->
+
+   <div class="small-container">
+
+        <h2 class="title">Features Product</h2>
+        <div class="row" id="product">
+            <!--  <div class="col-4">
+                <img src="images/bracelet 1.jpg"> 
+                <h4>Golden Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+                <button class="add"  onclick="addCart(event)"> Add Cart </button>
+            </div>
+
+            <div class="col-4">
+                <img src="images/watch 3 black.jpg"> 
+                <h4>Love Loket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$25.00</p>
+                <button class="add"> Add Cart </button>
+            </div>
+            
+
+            <div class="col-4">
+                <img src="images/pearl2 green.jpg"> 
+                <h4>sky styles Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$45.00</p>
+                <button class="add"> Add Cart </button>
+            </div>
+
+           <div class="col-4">
+                <img src="images/watch 2 pink .jpg"> 
+                <h4>Bracelet</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$38.00</p>
+                <button class="add"> Add Cart </button>
+            </div>
+
+            <div class="col-4">
+                <img src="images/sunglass 2 tiger.jpg"> 
+                <h4>styles Bracelet</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$35.00</p>
+                <button class="add"> Add Cart </button>
+            </div>
+
+            <div class="col-4">
+                <img src="images/sunglass 1 pink.jpg"> 
+                <h4>Black Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$30.00</p>
+                <button class="add"> Add Cart </button>
+            </div>-->
+
+           
+        </div>
+
+ </div>
+
+
+ <!-- latest product products-->
+ <div class="small-container">
+
+    <h2 class="title">Latest Product</h2>
+    <div class="row" id="latestProduct">
+        <!--<div class="col-4">
+            <img src="images/pinksunglass.jpg"> 
+            <h4>Rose Pink Sunglass</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$80.00</p>
+            <button class="add"> Add Cart </button>
+        </div>
+
+        <div class="col-4">
+            <img src="images/pearl.jpg"> 
+            <h4>Pearl Nacklach </h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$95.00</p>
+            <button class="add"> Add Cart </button>
+        </div>
+        
+
+        <div class="col-4">
+            <img src="images/tigar glass.jpg"> 
+            <h4>Tiger Sunglass</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$65.00</p>
+            <button class="add"> Add Cart </button>
+        </div>
+
+       
+    </div>
+
+</div>-->
+</div>
+
+</div>
+
+   
+    <!-- contact us-->
+
+    
+    <div class="contact">
+
+        <h1> Contact Us </h1>
+        <h2>silvee1611@gmail.com</h2>
+        
+    </div>
+    
+   
+
+
+
+    <script src="jquery.min.js"></script>
+    <script src="product_api.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "assignment1-tahzin",
+  "version": "1.0.0",
+  "description": "a. User can add new products....Click Menu bar  `+ New Product` found a form fill up the form and click `submit`. Product will be added in the prodcuts that are shown in home page. First 4 product will be added in `Feature Product` and others will be added in `Latest Product`",
+  "main": "jquery.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iub-cse-shq/assignment1-tahzin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iub-cse-shq/assignment1-tahzin/issues"
+  },
+  "homepage": "https://github.com/iub-cse-shq/assignment1-tahzin#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13"
+  }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Add Product page </title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="responsive.css" media="all" />
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+     
+</head>
+<body>
+   <!-- logo and menu bar-->
+
+
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+
+        <div class="logo">
+
+             <img src="logo1.jpg" alt="logo Picture" width="150px">
+             
+        </div>
+        
+        
+        <nav>
+            <ul id="menuitems">
+               
+                <li><a href="index.html">Home</a></li>
+                <li><a href="addProduct.html">+ New Product</a></li>
+                <!--  <img src="images/menu.jpg" class="menu-icon" > -->
+               <!-- <i class="fa fa-bars fa-1x" class="menu-icon"></i> -->
+               
+               
+            </ul>
+        </nav>
+
+        <div class="cart">
+            <a href="cart.html"  class="add-cart">
+                <i class="fa fa-shopping-cart fa-2x"></i><span id="num"></span>
+                </a>
+        </div>
+        <i class="fa fa-bars fa-2x" id="menu-icon" onclick="menutoggle()"></i> 
+        
+ </div>
+</div>
+
+
+
+<div>
+    <br> <br> <br> <br>
+
+    <div class="form" id="fm">
+        <br><br>
+        <h1 class="NewProductTitle"> New Product </h1>
+                
+        <form>
+            <br><br>
+            
+            <input type="text"   id="ProductName" placeholder=" Product Name"><br><br>
+            <input type="text"  placeholder="Description"  id="Description"><br><br>
+            <input type="text"  placeholder="URL" id="URL"><br><br>
+            <input type="number"  placeholder=" Quantity"  id="Quantity" ><br><br>
+            <input type="number" placeholder=" Price" id="Price"><br><br>
+            <br> <br> 
+            <button id="sumbitProduct" onclick="newProduct()"> Submit </button>
+
+        </form>
+    </div>
+
+   
+
+
+
+</div>
+
+
+        <br> <br> <br>
+
+</div> 
+
+     <!-- contact us-->
+
+<div class="contact">
+
+   <h1> Contact Us </h1>
+   <h2>silvee1611@gmail.com</h2>
+   
+</div>
+
+  
+
+<script src="jquery.min.js"></script>
+<script src="product_api.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cart page </title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="responsive.css" media="all" />
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+   <!-- logo and menu bar-->
+
+
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+
+        <div class="logo">
+
+             <img src="logo1.jpg" alt="logo Picture" width="150px">
+             
+        </div>
+        
+        
+        <nav>
+            <ul id="menuitems">
+               
+                <li><a href="index.html">Home</a></li>
+                <li><a href="addProduct.html">+ New Product</a></li>
+                <!--  <img src="images/menu.jpg" class="menu-icon" > -->
+               <!-- <i class="fa fa-bars fa-1x" class="menu-icon"></i> -->
+               
+               
+            </ul>
+        </nav>
+
+        <div class="cart">
+            <a href="cart.html"  class="add-cart">
+                <i class="fa fa-shopping-cart fa-2x"></i><span id="num"></span>
+                </a>
+        </div>
+        <i class="fa fa-bars fa-2x" id="menu-icon" onclick="menutoggle()"></i> 
+        
+ </div>
+</div>
+        <!-- cart items details-->
+ <div class="small-containerCartPage">
+     <table id="tableCart">
+         <tr>
+             <th>Product</th>
+             <th>Quantity</th>
+             <th>SubTotal</th>
+         </tr>
+        <!-- <tr>
+             <td>
+                 <div class="cart-info">
+                     <img src="images/cloack,jpg.jpg">
+                     <div id="Pinfo">
+                        <p> Black Watch</p>
+                        <small>Price: $ 30.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                     </div>
+                    </div>
+                
+             </td>
+             <td><input type="number" value="1"></td>
+             <td> $30.00</td>
+         </tr>
+
+         <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/pinksunglass.jpg">
+                    <div id="Pinfo">
+                       <p>Rose Pink Sunglass</p>
+                       <small>Price: $ 80.00</small>
+                       <br>
+                       <a href="">Remove</a>
+                    </div>
+                </div>
+               
+            </td>
+            <td><input type="number" value="1"></td>
+            <td> $80.00</td>
+        </tr>-->
+     </table>
+      
+ </div>
+        <div class="total-price">
+            <table id="totalPrice">
+               <!--   <tr>
+                    <td>SubTotal</td>
+                    <td id="subTotal"></td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td id="total"></td>
+                </tr>-->
+            </table>
+            
+        </div>
+        <br>
+        <button class="purchase"  onclick="purchase()"> Purchase </button>
+        <br> <br> <br>
+</div> 
+      <!-- contact us-->
+
+ <div class="contact">
+
+    <h1> Contact Us </h1>
+    <h2>silvee1611@gmail.com</h2>
+    
+</div>
+
+<script src="jquery.min.js"></script>
+<script src="product_api.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
